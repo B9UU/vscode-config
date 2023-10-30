@@ -3,11 +3,11 @@
 [
   // NAVIGATION
   {
-    "key": "win+i",
+    "key": "win+alt+j",
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "win+i",
+    "key": "win+alt+k",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   },
@@ -59,12 +59,11 @@
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
-    "key": "win+o",
-    "when": "editorTextFocus"
+    "key": "win+alt+h"
   },
   {
     "command": "workbench.action.focusActiveEditorGroup",
-    "key": "win+m",
+    "key": "win+alt+l",
     "when": "filesExplorerFocus"
   },
   {
@@ -98,4 +97,3 @@
     "command": "workbench.action.toggleZenMode"
   }
 ]
-
