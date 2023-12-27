@@ -1,33 +1,31 @@
-// Place your key bindings in this file to override the defaults
-// Place your key bindings in this file to override the defaults
 [
   // NAVIGATION
   {
-    "key": "win+alt+j",
+    "key": "win+j",
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "win+alt+k",
+    "key": "win+k",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   },
   {
-    "key": "win+h",
+    "key": "win+alt+h",
     "command": "workbench.action.terminal.focusPreviousPane",
     "when": "terminalFocus"
   },
   {
-    "key": "win+l",
+    "key": "win+alt+l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
   },
   {
-    "key": "win+j",
+    "key": "win+alt+j",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "win+k",
+    "key": "win+alt+k",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
@@ -37,12 +35,12 @@
     "command": "workbench.action.togglePanel"
   },
   {
-    "key": "win+m",
+    "key": "win+n",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
   {
-    "key": "win+n",
+    "key": "win+s",
     "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
   },
@@ -54,16 +52,15 @@
   // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "win+o",
-    "when": "filesExplorerFocus"
+    "key": "win+o"
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
-    "key": "win+alt+h"
+    "key": "win+h"
   },
   {
     "command": "workbench.action.focusActiveEditorGroup",
-    "key": "win+alt+l",
+    "key": "win+l",
     "when": "filesExplorerFocus"
   },
   {
