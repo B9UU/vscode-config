@@ -1,66 +1,66 @@
 [
   // NAVIGATION
   {
-    "key": "win+j",
+    "key": "ctrl+j",
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "win+k",
+    "key": "ctrl+k",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   },
   {
-    "key": "win+alt+h",
+    "key": "ctrl+alt+h",
     "command": "workbench.action.terminal.focusPreviousPane",
     "when": "terminalFocus"
   },
   {
-    "key": "win+alt+l",
+    "key": "ctrl+alt+l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
   },
   {
-    "key": "win+alt+j",
+    "key": "ctrl+alt+j",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "win+alt+k",
+    "key": "ctrl+alt+k",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
 
   {
-    "key": "win+b",
+    "key": "ctrl+b",
     "command": "workbench.action.togglePanel"
   },
   {
-    "key": "win+n",
+    "key": "ctrl+n",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
   {
-    "key": "win+s",
+    "key": "ctrl+s",
     "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
   },
   {
-    "key": "win+w",
+    "key": "ctrl+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
   // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "win+o"
+    "key": "ctrl+o"
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
-    "key": "win+h"
+    "key": "ctrl+h"
   },
   {
     "command": "workbench.action.focusActiveEditorGroup",
-    "key": "win+l",
+    "key": "ctrl+l",
     "when": "filesExplorerFocus"
   },
   {
