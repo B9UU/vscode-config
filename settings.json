@@ -6,12 +6,13 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": -0.2,
   "launch": {},
-  "[json]": {},
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "breadcrumbs.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
   "update.showReleaseNotes": false,
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideTabs": false,
   "editor.lineNumbers": "relative",
   "vim.foldfix": true,
   "vim.leader": "<space>",
@@ -21,8 +22,8 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     // NAVIGATION
     // switch b/w buffers
-    { "before": ["<S-j>"], "commands": [":bprevious"] },
-    { "before": ["<S-k>"], "commands": [":bnext"] },
+    { "before": ["leader", "j"], "commands": [":bprevious"] },
+    { "before": ["leader", "k"], "commands": [":bnext"] },
 
     // splits
     { "before": ["leader", "v"], "commands": [":vsplit"] },
@@ -30,7 +31,7 @@
 
     // panes
     {
-      "before": ["<S-h>"],
+      "before": ["leader", "h"],
       "commands": ["workbench.action.focusLeftGroup"]
     },
     // {
@@ -42,7 +43,7 @@
     //   "commands": ["workbench.action.focusAboveGroup"]
     // },
     {
-      "before": ["<S-l>"],
+      "before": ["leader", "l"],
       "commands": ["workbench.action.focusRightGroup"]
     },
     // NICE TO HAVE
@@ -67,7 +68,7 @@
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
     },
-    { "before": ["leader", "k"], "commands": ["editor.action.showHover"] }
+    { "before": ["leader", "a"], "commands": ["editor.action.showHover"] }
   ],
   "vim.visualModeKeyBindings": [
     // Stay in visual mode while indenting
@@ -90,6 +91,8 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "GitHub Dark Default"
+  "editor.codeActionsOnSave": {},
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.minimap.enabled": false,
+  "json2go.inputSource": "selection"
 }
-
